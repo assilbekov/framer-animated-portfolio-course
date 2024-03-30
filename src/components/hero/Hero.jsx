@@ -15,6 +15,9 @@ export const Hero = () => {
           <img src="/scroll.png" alt="down arrow" />
         </div>
       </div>
+      <div className="slidingTextContainer">
+        Writer Content Creator Influencer
+      </div>
       <div className="imageContainer">
         <img src="/hero.png" alt="hero" />
       </div>
