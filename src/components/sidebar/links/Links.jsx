@@ -38,7 +38,14 @@ export const Links = () => {
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item, index) => (
-        <motion.a href={`#${item}`} key={index} variants={itemVariants}>{item}</motion.a>
+        <motion.a
+          href={`#${item}`}
+          key={index}
+          variants={itemVariants}
+          whileHover={{ scale: 1.1 }}
+        >
+          {item}
+        </motion.a>
       ))}
     </motion.div>
   )
