@@ -13,6 +13,14 @@ const textVariants = {
       duration: 1,
       staggerChildren: 0.1
     }
+  },
+  scrollButton: {
+    opacity: 0,
+    y: 10,
+    transition: {
+      duration: 2,
+      repeat: Infinity,
+    }
   }
 }
 
@@ -27,7 +35,7 @@ export const Hero = () => {
             <motion.button variants={textVariants}>See the latest works</motion.button>
             <motion.button variants={textVariants}>Contact me</motion.button>
           </motion.div>
-          <motion.img src="/scroll.png" alt="down arrow" variants={textVariants} />
+          <motion.img src="/scroll.png" alt="down arrow" variants={textVariants} animate="scrollButton" />
         </motion.div>
       </div>
       <div className="slidingTextContainer">
