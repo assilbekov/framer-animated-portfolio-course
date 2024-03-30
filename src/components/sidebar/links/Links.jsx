@@ -2,7 +2,7 @@ import "./links.scss";
 
 export const Links = () => {
   return (
-    <div>
+    <div className="links">
       links
     </div>
   )

@@ -1,9 +1,9 @@
 import "./toggleButton.scss"
 
-export const ToggleButton = () => {
+export const ToggleButton = ({ setOpen }) => {
   return (
-    <div>
-      Toogle button 
-    </div>
+    <button onClick={() => setOpen(v => !v)}>
+      Toogle button
+    </button>
   )
 }
