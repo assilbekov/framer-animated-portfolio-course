@@ -1,4 +1,19 @@
+import { motion } from "framer-motion";
 import "./links.scss";
+
+const variants = {
+  open: {
+    transition: {
+      staggerChildren: 0.1
+    }
+  },
+  closed: {
+    transition: {
+      staggerChildren: 0.05,
+      staggerDirection: -1
+    }
+  }
+}
 
 export const Links = () => {
   const items = [
@@ -10,10 +25,10 @@ export const Links = () => {
   ]
 
   return (
-    <div className="links">
+    <motion.div className="links" variants={variants}>
       {items.map((item, index) => (
         <a href={`#${item}`} key={index}>{item}</a>
       ))}
-    </div>
+    </motion.div>
   )
 }
