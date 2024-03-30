@@ -1,10 +1,18 @@
+import "./app.scss"
 
 function App() {
 
   return (
-    <p className="read-the-docs">
-      Click on the Vite and React logos to learn more
-    </p>
+    <div>
+      <section>Hero</section>
+      <section>Parallax</section>
+      <section>Services</section>
+      <section>Parallax</section>
+      <section>Portfolio1</section>
+      <section>Portfolio2</section>
+      <section>Portfolio3</section>
+      <section>Contact</section>
+    </div>
   )
 }
 
