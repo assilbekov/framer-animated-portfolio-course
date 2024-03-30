@@ -1,3 +1,4 @@
+import { motion } from "framer-motion"
 import "./navbar.scss"
 
 export const Navbar = () => {
@@ -5,7 +6,13 @@ export const Navbar = () => {
     <div className="navbar">
       {/* Sidebar */}
       <div className="wrapper">
-        <span>Lama dev</span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+          Lama dev
+        </motion.span>
         <div className="social">
           <a href="#home"><img src="facebook.png" /></a>
           <a href="#home"><img src="instagram.png" /></a>
