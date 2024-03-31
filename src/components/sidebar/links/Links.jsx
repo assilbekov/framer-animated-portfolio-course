@@ -31,8 +31,8 @@ export const Links = () => {
     "Homepage",
     "Services",
     "Portfolio",
-    "Contact",
     "About",
+    "Contact",
   ]
 
   return (
