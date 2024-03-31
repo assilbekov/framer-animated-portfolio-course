@@ -1,26 +1,55 @@
+import { motion } from "framer-motion";
 import "./services.scss";
 
 export const Services = () => {
   return (
-    <div className="services">
-      <h1>What we do?</h1>
-      <div className="services__container">
-        <div className="services__card">
-          <img src="/web.png" alt="web" />
-          <h2>Web Development</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget est auctor, tincidunt elit non, consectetur libero.</p>
+    <motion.div className="services">
+      <motion.div className="textContainer">
+        <p>
+          I focus on your brand grow <br /> and move forward
+        </p>
+        <hr />
+      </motion.div>
+      <motion.div className="titleContainer">
+        <div className="title">
+          <img src="/people.webp" alt="people" />
+          <h1><b>Unique</b> Ideas</h1>
         </div>
-        <div className="services__card">
-          <img src="/app.png" alt="app" />
-          <h2>App Development</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget est auctor, tincidunt elit non, consectetur libero.</p>
+        <div className="title">
+          <h1><b>For your</b> Business.</h1>
+          <button>WHAT WE DO?</button>
         </div>
-        <div className="services__card">
-          <img src="/seo.png" alt="seo" />
-          <h2>SEO</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget est auctor, tincidunt elit non, consectetur libero.</p>
+      </motion.div>
+      <motion.div className="listContainer">
+        <div className="box">
+          <h2>Branding</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
+          </p>
+          <button>Go</button>
         </div>
-      </div>
-    </div>
+        <div className="box">
+          <h2>Branding</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
+          </p>
+          <button>Go</button>
+        </div>
+        <div className="box">
+          <h2>Branding</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
+          </p>
+          <button>Go</button>
+        </div>
+        <div className="box">
+          <h2>Branding</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
+          </p>
+          <button>Go</button>
+        </div>
+      </motion.div>
+    </motion.div>
   )
 }
