@@ -11,8 +11,17 @@
     align-items: center;
     height: 100%;
 
+    @include mobile {
+      justify-content: flex-end;
+      margin-right: 30px;
+    }
+
     span {
       font-weight: bold;
+
+      @include mobile {
+        display: none;
+      }
     }
 
     .social {
