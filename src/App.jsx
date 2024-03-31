@@ -10,23 +10,29 @@ function App() {
 
   return (
     <div>
+      {/* <Cursor /> */}
       <section id="Homepage">
         <Navbar />
         <Hero />
       </section>
       <section id="Services">
-        <Parallax type='services' />
+        <Parallax type="services" />
       </section>
-      <section id="Portfolio"><Services /></section>
-      <section id="About">
+      <section>
+        <Services />
+      </section>
+      <section id="Portfolio">
         <Parallax type="portfolio" />
       </section>
-      <section><Portfolio /></section>
+      <Portfolio />
       <section id="Contact">
         <Contact />
       </section>
+      {/* Framer Motion Crash Course */}
+      {/* <Test/>
+    <Test/> */}
     </div>
-  )
+  );
 }
 
 export default App

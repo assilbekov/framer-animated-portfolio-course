@@ -18,7 +18,7 @@ const variants = {
   },
 };
 
-const Contact = () => {
+export const Contact = () => {
   const ref = useRef();
   const formRef = useRef();
   const [error, setError] = useState(false);
@@ -117,5 +117,3 @@ const Contact = () => {
     </motion.div>
   );
 };
-
-export default Contact;
