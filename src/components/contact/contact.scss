@@ -26,6 +26,12 @@
     flex: 1;
     position: relative;
 
+    .phoneSvg {
+      background-color: orange;
+      position: absolute;
+      margin: auto;
+    }
+
     form {
       display: flex;
       flex-direction: column;
