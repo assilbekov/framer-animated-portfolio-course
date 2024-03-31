@@ -21,34 +21,34 @@ export const Services = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer">
-        <div className="box">
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
           </p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
           </p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
           </p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolore commodi soluta omnis quibusdam eaque, aut ducimus illum exercitationem eveniet harum magni animi, perferendis numquam, maiores labore? Odio, ex neque.
           </p>
           <button>Go</button>
-        </div>
+        </motion.div>
       </motion.div>
     </motion.div>
   )
