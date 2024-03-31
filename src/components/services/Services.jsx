@@ -34,10 +34,10 @@ export const Services = () => {
       <motion.div variants={variants} className="titleContainer">
         <div className="title">
           <img src="/people.webp" alt="people" />
-          <h1><b>Unique</b> Ideas</h1>
+          <h1><motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas</h1>
         </div>
         <div className="title">
-          <h1><b>For your</b> Business.</h1>
+          <h1><motion.b whileHover={{ color: "orange" }}>For your</motion.b> Business.</h1>
           <button>WHAT WE DO?</button>
         </div>
       </motion.div>
