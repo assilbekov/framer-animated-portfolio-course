@@ -24,27 +24,31 @@
 
   .formContainer {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    position: relative;
 
-    input,
-    textarea {
-      padding: 20px;
-      background-color: transparent;
-      border: 1px solid white;
-      color: white;
-      border-radius: 5px;
-    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
 
-    button {
-      padding: 20px;
-      background-color: orange;
-      border: none;
-      cursor: pointer;
-      color: white;
-      font-weight: 500;
-      border-radius: 5px;
+      input,
+      textarea {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
+      }
+
+      button {
+        padding: 20px;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 500;
+        border-radius: 5px;
+      }
     }
   }
 }
