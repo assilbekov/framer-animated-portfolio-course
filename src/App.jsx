@@ -12,7 +12,7 @@ function App() {
         <Hero />
       </section>
       <section id="Services">
-        <Parallax />
+        <Parallax type='services' />
       </section>
       <section id="Portfolio">Services</section>
       <section id="About">

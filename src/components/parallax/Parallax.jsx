@@ -1,27 +1,19 @@
 import "./parallax.scss";
 
-export const Parallax = () => {
+export const Parallax = ({ type }) => {
   return (
-    <div>
-      <div className="parallax">
-        <div className="wrapper">
-          <div className="textContainer">
-            <h2>Harvey Asssilbekov</h2>
-            <h1>Web developer, Frontend and Backend</h1>
-            <div className="buttons">
-              <button>See the latest works</button>
-              <button>Contact me</button>
-            </div>
-            <img src="/scroll.png" alt="down arrow" />
-          </div>
-        </div>
-        <div className="slidingTextContainer">
-          Writer Content Creator Influencer
-        </div>
-        <div className="imageContainer">
-          <img src="/hero.png" alt="hero" />
-        </div>
-      </div>
+    <div
+      className="parallax"
+      style={{
+        background: type === "services" ?
+          "linear-gradient(180deg, #111132, #0c0c1d)" :
+          "linear-gradient(180deg, #111132, #505064)"
+      }}
+    >
+      <h1>{type === "services" ? "What we do?" : "What we did?"}</h1>
+      <div className="mountains"></div>
+      <div className="planets"></div>
+      <div className="stars"></div>
     </div>
   )
 }
